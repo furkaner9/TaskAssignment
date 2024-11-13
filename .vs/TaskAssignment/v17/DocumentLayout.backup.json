@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\furka\\source\\repos\\TaskAssignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CADDB051-C6D2-41AA-AB1C-113CAA6EAF7E}|TaskAssignment\\TaskAssignment.csproj|c:\\users\\furka\\source\\repos\\taskassignment\\taskassignment\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CADDB051-C6D2-41AA-AB1C-113CAA6EAF7E}|TaskAssignment\\TaskAssignment.csproj|solutionrelative:taskassignment\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CADDB051-C6D2-41AA-AB1C-113CAA6EAF7E}|TaskAssignment\\TaskAssignment.csproj|c:\\users\\furka\\source\\repos\\taskassignment\\taskassignment\\controllers\\personelbilgileriscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADDB051-C6D2-41AA-AB1C-113CAA6EAF7E}|TaskAssignment\\TaskAssignment.csproj|solutionrelative:taskassignment\\controllers\\personelbilgileriscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CADDB051-C6D2-41AA-AB1C-113CAA6EAF7E}|TaskAssignment\\TaskAssignment.csproj|c:\\users\\furka\\source\\repos\\taskassignment\\taskassignment\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{CADDB051-C6D2-41AA-AB1C-113CAA6EAF7E}|TaskAssignment\\TaskAssignment.csproj|solutionrelative:taskassignment\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CADDB051-C6D2-41AA-AB1C-113CAA6EAF7E}|TaskAssignment\\TaskAssignment.csproj|c:\\users\\furka\\source\\repos\\taskassignment\\taskassignment\\models\\datecontext\\projetakipdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CADDB051-C6D2-41AA-AB1C-113CAA6EAF7E}|TaskAssignment\\TaskAssignment.csproj|solutionrelative:taskassignment\\models\\datecontext\\projetakipdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CADDB051-C6D2-41AA-AB1C-113CAA6EAF7E}|TaskAssignment\\TaskAssignment.csproj|c:\\users\\furka\\source\\repos\\taskassignment\\taskassignment\\models\\personel\\personelbilgileri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CADDB051-C6D2-41AA-AB1C-113CAA6EAF7E}|TaskAssignment\\TaskAssignment.csproj|solutionrelative:taskassignment\\models\\personel\\personelbilgileri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CADDB051-C6D2-41AA-AB1C-113CAA6EAF7E}|TaskAssignment\\TaskAssignment.csproj|c:\\users\\furka\\source\\repos\\taskassignment\\taskassignment\\models\\projetakip\\personelprojeleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CADDB051-C6D2-41AA-AB1C-113CAA6EAF7E}|TaskAssignment\\TaskAssignment.csproj|solutionrelative:taskassignment\\models\\projetakip\\personelprojeleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CADDB051-C6D2-41AA-AB1C-113CAA6EAF7E}|TaskAssignment\\TaskAssignment.csproj|C:\\Users\\furka\\source\\repos\\TaskAssignment\\taskassignment\\views\\personelbilgileris\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CADDB051-C6D2-41AA-AB1C-113CAA6EAF7E}|TaskAssignment\\TaskAssignment.csproj|solutionrelative:taskassignment\\views\\personelbilgileris\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,67 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\source\\repos\\TaskAssignment\\TaskAssignment\\Migrations\\Configuration.cs",
-              "RelativeDocumentMoniker": "TaskAssignment\\Migrations\\Configuration.cs",
-              "ToolTip": "C:\\Users\\furka\\source\\repos\\TaskAssignment\\TaskAssignment\\Migrations\\Configuration.cs",
-              "RelativeToolTip": "TaskAssignment\\Migrations\\Configuration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Title": "PersonelBilgilerisController.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\source\\repos\\TaskAssignment\\TaskAssignment\\Controllers\\PersonelBilgilerisController.cs",
+              "RelativeDocumentMoniker": "TaskAssignment\\Controllers\\PersonelBilgilerisController.cs",
+              "ToolTip": "C:\\Users\\furka\\source\\repos\\TaskAssignment\\TaskAssignment\\Controllers\\PersonelBilgilerisController.cs",
+              "RelativeToolTip": "TaskAssignment\\Controllers\\PersonelBilgilerisController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAiwCgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T19:10:39.201Z",
+              "WhenOpened": "2024-11-13T19:43:34.936Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\furka\\source\\repos\\TaskAssignment\\TaskAssignment\\Web.config",
-              "RelativeDocumentMoniker": "TaskAssignment\\Web.config",
-              "ToolTip": "C:\\Users\\furka\\source\\repos\\TaskAssignment\\TaskAssignment\\Web.config",
-              "RelativeToolTip": "TaskAssignment\\Web.config",
-              "ViewState": "AgIAADEAAAAAAAAAAAAqwD8AAACxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-12T19:02:11.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProjeTakipDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\source\\repos\\TaskAssignment\\TaskAssignment\\Models\\DateContext\\ProjeTakipDBContext.cs",
-              "RelativeDocumentMoniker": "TaskAssignment\\Models\\DateContext\\ProjeTakipDBContext.cs",
-              "ToolTip": "C:\\Users\\furka\\source\\repos\\TaskAssignment\\TaskAssignment\\Models\\DateContext\\ProjeTakipDBContext.cs",
-              "RelativeToolTip": "TaskAssignment\\Models\\DateContext\\ProjeTakipDBContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T18:55:37.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PersonelProjeleri.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\source\\repos\\TaskAssignment\\TaskAssignment\\Models\\ProjeTakip\\PersonelProjeleri.cs",
-              "RelativeDocumentMoniker": "TaskAssignment\\Models\\ProjeTakip\\PersonelProjeleri.cs",
-              "ToolTip": "C:\\Users\\furka\\source\\repos\\TaskAssignment\\TaskAssignment\\Models\\ProjeTakip\\PersonelProjeleri.cs",
-              "RelativeToolTip": "TaskAssignment\\Models\\ProjeTakip\\PersonelProjeleri.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T18:38:32.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PersonelBilgileri.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\source\\repos\\TaskAssignment\\TaskAssignment\\Models\\Personel\\PersonelBilgileri.cs",
-              "RelativeDocumentMoniker": "TaskAssignment\\Models\\Personel\\PersonelBilgileri.cs",
-              "ToolTip": "C:\\Users\\furka\\source\\repos\\TaskAssignment\\TaskAssignment\\Models\\Personel\\PersonelBilgileri.cs",
-              "RelativeToolTip": "TaskAssignment\\Models\\Personel\\PersonelBilgileri.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T18:15:44.691Z",
-              "EditorCaption": ""
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\furka\\source\\repos\\TaskAssignment\\TaskAssignment\\Views\\PersonelBilgileris\\Index.cshtml",
+              "RelativeDocumentMoniker": "TaskAssignment\\Views\\PersonelBilgileris\\Index.cshtml",
+              "ToolTip": "C:\\Users\\furka\\source\\repos\\TaskAssignment\\TaskAssignment\\Views\\PersonelBilgileris\\Index.cshtml",
+              "RelativeToolTip": "TaskAssignment\\Views\\PersonelBilgileris\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAIEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T19:08:29.959Z"
             }
           ]
         }
