@@ -5,151 +5,103 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Details</h2>
+<div class="row">
+    <div class="col-md-12">
 
-<div>
-    <h4>PersonelBilgileri</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Eposta)
-        </dt>
+        <div class="card mb-4">
+            <h5 class="card-header">Profil Detayı</h5>
+            <!-- Account -->
 
-        <dd>
-            @Html.DisplayFor(model => model.Eposta)
-        </dd>
+            <hr class="my-0">
+            <div class="card-body">
+                <form id="formAccountSettings" method="POST" onsubmit="return false">
+                    <div class="row">
+                        <div class="mb-3 col-md-6">
+                            <label for="firstName" class="form-label">Ad Soyad:</label>
+                            @Html.DisplayFor(model => model.AdSoyad)
+                        </div>
+                        <div class="mb-3 col-md-6">
+                            <label for="firstName" class="form-label">YETKİ:</label>
+                            @Html.DisplayFor(model => model.Yetki)
+                        </div>
+                        <div class="mb-3 col-md-6">
+                            <label for="firstName" class="form-label">GÖREV:</label>
+                            @Html.DisplayFor(model => model.Gorev)
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="firstName" class="form-label">TELEFON:</label>
+                                @Html.DisplayFor(model => model.TelNO)
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="firstName" class="form-label">E-POSTA:</label>
+                                @Html.DisplayFor(model => model.Eposta)
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="firstName" class="form-label">Ad Soyad:</label>
+                                @Html.DisplayFor(model => model.AdSoyad)
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="firstName" class="form-label">Ad Soyad:</label>
+                                @Html.DisplayFor(model => model.AdSoyad)
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="firstName" class="form-label">TC NO :</label>
+                                @Html.DisplayFor(model => model.TCNO)
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="firstName" class="form-label">DEPARTMAN:</label>
+                                @Html.DisplayFor(model => model.Departman)
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="firstName" class="form-label">DOĞUM TARİHİ:</label>
+                                @Html.DisplayFor(model => model.DogumTarihi)
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="firstName" class="form-label">ADRES:</label>
+                                @Html.DisplayFor(model => model.Adres)
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="firstName" class="form-label">İŞE GİRİŞ TARİHİ:</label>
+                                @Html.DisplayFor(model => model.IseGirisTarihi)
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="firstName" class="form-label">MEDENİ HAL:</label>
+                                @Html.DisplayFor(model => model.MedeniHal)
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="firstName" class="form-label">POZİSYON AÇIKLAMA:</label>
+                                @Html.DisplayFor(model => model.pozisyonAcıklama)
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="firstName" class="form-label">YAKIN BİLGİSİ:</label>
+                                @Html.DisplayFor(model => model.YakınBilgisi)
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="firstName" class="form-label">YAKUN AD SOYAD:</label>
+                                @Html.DisplayFor(model => model.YakınAdsoyad)
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="firstName" class="form-label">YAKIN TC:</label>
+                                @Html.DisplayFor(model => model.YakınTcNo)
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="firstName" class="form-label">YAKIN TELEFON:</label>
+                                @Html.DisplayFor(model => model.YakınTel)
+                            </div>
+                        </div>
+                       
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Sifre)
-        </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Sifre)
-        </dd>
+                        <div class="mt-2">
+                            <a href="/PersonelBilgileris/Index" type="submit" class="btn btn-primary me-2">Anasayfa</a>
+                            
+                        </div>
+                </form>
+            </div>
+            <!-- /Account -->
+        </div>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Yetki)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Yetki)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.AdSoyad)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.AdSoyad)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.TCNO)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TCNO)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Departman)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Departman)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Gorev)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Gorev)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.pozisyonAcıklama)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.pozisyonAcıklama)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.TelNO)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TelNO)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Adres)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Adres)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.MedeniHal)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.MedeniHal)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.YakınBilgisi)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.YakınBilgisi)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.YakınTcNo)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.YakınTcNo)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.YakınAdsoyad)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.YakınAdsoyad)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.YakınTel)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.YakınTel)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.DogumTarihi)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.DogumTarihi)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.IseGirisTarihi)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.IseGirisTarihi)
-        </dd>
-
-    </dl>
+    </div>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.PersonelBilgileriId }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+
+
