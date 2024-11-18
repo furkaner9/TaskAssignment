@@ -58,8 +58,10 @@
 
                 @foreach (var item in Model)
                 {
+
                     <tr>
                         <td>
+                            <a href="mailto:@item.Eposta">@item.Eposta</a>
                             @Html.DisplayFor(modelItem => item.Eposta)
                         </td>
                         <td>
@@ -82,6 +84,7 @@
                         </td>
                        
                         <td>
+                            <a href="tel:@item.TelNO">@item.TelNO</a>
                             @Html.DisplayFor(modelItem => item.TelNO)
                         </td>
 

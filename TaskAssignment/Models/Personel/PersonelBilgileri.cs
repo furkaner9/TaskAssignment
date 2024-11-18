@@ -29,7 +29,16 @@ namespace TaskAssignment.Models.Personel
         [DisplayName("Ad Soyad")]
         [StringLength(25, ErrorMessage = "Masimum uzunluk 25 karekter")]
         public string AdSoyad { get; set; }
+
+
+
+        [DisplayName("Personel Görseli")]
+        public string PersonelGöreseli {  get; set; }
+
+
+
         [DisplayName("Tc No")]
+      
         public int TCNO { get; set; }
         [DisplayName("Departman")]
         [StringLength(25, ErrorMessage = "Masimum uzunluk 25 karekter")]
