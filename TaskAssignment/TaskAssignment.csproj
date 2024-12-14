@@ -127,8 +127,10 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\GenelBakısController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PersonelBilgilerisController.cs" />
+    <Compile Include="Controllers\PersonelProjelerisController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -450,6 +452,12 @@
     <Content Include="Views\PersonelBilgileris\Edit.cshtml" />
     <Content Include="Views\PersonelBilgileris\Index.cshtml" />
     <Content Include="Views\PersonelBilgileris\PersonelKart.cshtml" />
+    <Content Include="Views\PersonelProjeleris\Create.cshtml" />
+    <Content Include="Views\PersonelProjeleris\Delete.cshtml" />
+    <Content Include="Views\PersonelProjeleris\Details.cshtml" />
+    <Content Include="Views\PersonelProjeleris\Edit.cshtml" />
+    <Content Include="Views\PersonelProjeleris\Index.cshtml" />
+    <Content Include="Views\GenelBakıs\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

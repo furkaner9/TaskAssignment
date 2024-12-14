@@ -23,9 +23,13 @@ namespace TaskAssignment.Models.ProjeTakip
         public string Acıklama { get; set; }
         [DisplayName("Oluşturulma Tarihi")]
         public DateTime OlusturmaTarihi { get; set; }
+        [DisplayName("Öncelik Durumu")]
         public string OncelıkDurumu { get; set; }
+        [DisplayName("Tamamlanma Oranı")]
         public int TamamamlanmaOranı { get; set; }
+        [DisplayName("Tarihi Tarihi")]
         public DateTime? TamamlanmTarihi { get; set; }
+        [DisplayName("Tamamlanma Durumu")]
         public bool TamamlanmaDurumu { get; set; }
         public virtual ICollection<PersonelBilgileri>PersonelBilgileris { get; set; }
     }
